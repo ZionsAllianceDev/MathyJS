@@ -1,42 +1,42 @@
 //MathyJS Console Edition
 var MathyJS = {
         add:function(a,b){
-          return(a+b);
+          console.log(a+b);
   },
   subtract:function(a,b){
-          return(a-b);
+          console.log(a-b);
   },
   divide:function(a,b){
-          return(a/b);
+          console.log(a/b);
   },
   multiply:function(a,b){
-          return(a*b);
+          console.log(a*b);
   },
   random:function(a,b){
-          return(Math.floor(Math.random()*a)+b);
+          console.log(Math.floor(Math.random()*a)+b);
     
   },
   root:function(a){
-          return(Math.sqrt(a))
+          console.log(Math.sqrt(a))
   },
   square:function(a){
-          return(a*a);
+          console.log(a*a);
   },
   cube:function(a){
-                return(a*a*a);
+          console.log(a*a*a);
   },
   modulus:function(a,b){
-          return(a%b);
+          console.log(a%b);
   },
   HighestNumber:function(a,b){
-          return(Math.max(a,b));
+          console.log(Math.max(a,b));
   },
   LowestNumber:function(a,b){
-          return(Math.min(a,b));
+          console.log(Math.min(a,b));
   },
   isOE:function(a){
           if(a % 2 > 0){
-              return(a + " is odd");
+              console.log(a + " is odd");
           }
           else if(a % 2 == 0){
               return(a + " is even");
@@ -53,7 +53,35 @@ var MathyJS = {
             }
         }
     }
-    return(primeNum);
+    console.log(primeNum);
+  },
+  isNum:function(a){
+          if(isNaN(a) == false){
+                  console.log("Its A Number Dumbass")
+          }
+          else{
+                  console.log("Its Not A Number Dumbass ")
+          }
+  },
+  pi: function(){
+          console.log(Math.PI)
+  },
+  roundNum:function(a){
+          console.log(Math.round(a))
+  },
+  roundNumUp:function(a){
+          console.log(Math.ceil(a))
+  },
+  roundNumDown:function(a){
+          console.log(Math.floor(a))
+  },
+  eulersNum:function(){
+          console.log(Math.E())
+  },
+  absVal:function(a){
+          console.log(Math.abs(a))
+  },
+  power:function(a,b){
+         console.log(Math.pow(a,b))
   }
-  
 };
