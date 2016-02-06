@@ -19,7 +19,7 @@ MathyJS.roundNum()
 MathyJS.roundNumUp()
 MathyJS.roundNumDown()
 MathyJS.eulersNum()
-MathyJS.absVal
-MathyJS.power
+MathyJS.absVal()
+MathyJS.power()
 MathyJS.testFunction()
 MathyJS.versionNum()
