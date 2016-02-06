@@ -6,5 +6,5 @@ How to use
 
 MathyJS.add()
 MathyJS.subtract()
-MathyJS.
-MathyJS.
+MathyJS.divide()
+MathyJS.multiply()
