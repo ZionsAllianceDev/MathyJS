@@ -1,2 +1,10 @@
 # MathyJS
-a simple math for javascript 
+a simple math engine for javascript 
+
+
+How to use 
+
+MathyJS.add()
+MathyJS.subtract()
+MathyJS.
+MathyJS.
