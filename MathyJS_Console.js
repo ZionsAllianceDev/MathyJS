@@ -83,5 +83,7 @@ var MathyJS = {
   },
   power:function(a,b){
          console.log(Math.pow(a,b))
-  }
+  },
+  testFunction:function(){console.log("It Works")},
+  versionNum:function(){console.log("1.0")},
 };
