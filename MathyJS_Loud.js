@@ -1,4 +1,4 @@
-//MathyJS Loud
+//MathyJS Loud Edition
 
 
 var MathyJS = {
