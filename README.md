@@ -11,3 +11,9 @@ MathyJS.subtract()
 MathyJS.divide()
 
 MathyJS.multiply()
+
+MathyJS.
+
+MathyJS.
+
+MathyJS.
