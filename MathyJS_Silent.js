@@ -14,8 +14,8 @@ var MathyJS = {
   multiply:function(a,b){
           return(a*b);
   },
-  random:function(a){
-          return(Math.floor(Math.random()*a));
+  random:function(a,b){
+          return(Math.floor(Math.random()*a)+b);
     
   },
   root:function(a){
