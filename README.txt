@@ -11,7 +11,7 @@ MathyJS.cube(a)
 MathyJS.modulus(a)
 MathyJS.HighestNumber(a,b)
 MathyJS.LowestNumber
-MathyJS.isOE
+MathyJS.isOddEven
 MathyJS.primeRange()
 MathyJS.isNum(a)
 MathyJS.pi()
