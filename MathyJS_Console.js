@@ -1,5 +1,5 @@
 //MathyJS Console Edition
-var MathyJS = {
+var MJS = {
         add:function(a,b){
           console.log(a+b);
   },
@@ -85,5 +85,5 @@ var MathyJS = {
          console.log(Math.pow(a,b))
   },
   testFunction:function(){console.log("It Works")},
-  versionNum:function(){console.log("1.0")},
+  versionNum:function(){console.log("1.2")},
 };
