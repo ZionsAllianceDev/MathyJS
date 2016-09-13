@@ -66,22 +66,22 @@ var MJS = {
   pi: function(){
           console.log(Math.PI)
   },
-  roundNum:function(a){
+  round:function(a){
           console.log(Math.round(a))
   },
-  roundNumUp:function(a){
+  roundUp:function(a){
           console.log(Math.ceil(a))
   },
-  roundNumDown:function(a){
+  roundDown:function(a){
           console.log(Math.floor(a))
   },
   eulersNum:function(){
           console.log(Math.E())
   },
-  absVal:function(a){
+  Absolute:function(a){
           console.log(Math.abs(a))
   },
-  power:function(a,b){
+  exponent:function(a,b){
          console.log(Math.pow(a,b))
   },
   testFunction:function(){console.log("It Works")},
